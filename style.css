@@ -1,0 +1,94 @@
+img {
+    height: 300px;
+    border-radius: 15%;
+    margin-top: 20px;
+}
+
+body {
+    text-align: center;
+    padding-top: 800px;
+}
+
+#welcome {
+    position: absolute;
+    background: linear-gradient(skyblue 0%, pink 100%);
+    overflow:hidden;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    height: 800px;
+    opacity:1;
+    display:table;
+    height:100%;
+    width: 100%;
+    z-index: 6;
+/*    we want menu bar to overlap the welcome section hence we have given a lower value than ten.any value lower than ten can work*/
+}
+.contents{
+    display: table-cell;
+    vertical-align: middle;
+    
+}
+#bio{
+    background: linear-gradient(skyblue 0%, yellow 50%, green 100%);
+    padding-top: 30px;
+    padding-bottom: 40px;
+    margin-top:-80px;
+        margin-left:-8px;
+    margin-right:-8px;
+    
+}
+#bio h3{
+    max-width: 800px;
+    margin: auto;
+    line-height: 1.5;
+}
+.underline{
+    background-color: black;
+    height:5px;
+    width: 150;
+margin: auto;
+    border-radius: 10px;
+}
+#name{
+   font-family: 'Cinzel', serif;
+    font-size: 34px;
+}
+.menu{
+    position:absolute;
+    z-index: 10;
+    top: 10px;
+    list-style: none;
+/*    display:flex;*/
+    
+}
+.link{
+font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    margin:11px;
+    float:right;
+}
+h2{font-family: 'Open Sans', sans-serif;
+    
+}
+.link:hover{
+    cursor:pointer;
+    border:2px solid black;
+    border-radius: 6px;
+    padding:5px;
+        
+}
+#video{
+  background-color: black;
+      font-family: 'Open Sans', sans-serif;
+    margin-top: -20;
+      
+}
+#video h2{
+    color: white;
+   padding-top:20px;
+    padding-bottom: 30px;
+        
+}
+
